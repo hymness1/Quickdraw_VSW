@@ -57,7 +57,7 @@ I'm assuming you already have an up and running Switchwire, pretty stock in rela
 21. Calculate `last step dock Z coordinate` minus `dock Z coordinate from step 7`.
 22. In `printer.cfg`
     * Add `[include dock_macros.cfg]`
-    * Enter the correct value for the `position_endstop` in `stepper_z` section by substracting the result in step 20.
+    * Enter the correct value for the `position_endstop` in `stepper_z` section by substracting the result in step 21.
     * Save and restart firmware
 
 # Normal behavior and general notes
